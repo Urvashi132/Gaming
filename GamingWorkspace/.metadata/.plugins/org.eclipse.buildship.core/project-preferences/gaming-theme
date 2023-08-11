@@ -1,0 +1,12 @@
+#
+#Mon Sep 12 12:31:10 IST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=
+managedNatures=org.eclipse.jdt.core.javanature;org.eclipse.wst.common.project.facet.core.nature;org.eclipse.wst.common.modulecore.ModuleCoreNature;org.eclipse.jem.workbench.JavaEMFNature
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build

@@ -1,0 +1,341 @@
+!SESSION 2022-09-09 15:38:56.869 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-09 15:39:03.865
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 15:39:06.743
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.ui 4 4 2022-09-09 15:39:06.920
+!MESSAGE Referenced part does not exist yet: fast.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-09 15:39:13.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 15:39:22.974
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 15:39:22.989
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-09-09 16:00:25.909
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:300)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:405)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs(SynchronizedBoolean.java:396)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilTrue(SynchronizedBoolean.java:443)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext$JobChangeListener.waitUntilDone(SimpleJobCommandContext.java:207)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute_(SimpleJobCommandContext.java:167)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute(SimpleJobCommandContext.java:136)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects_(InternalJpaProjectManager.java:357)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects(InternalJpaProjectManager.java:346)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.dispose(InternalJpaProjectManager.java:331)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaWorkspace.dispose(InternalJpaWorkspace.java:113)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.disposeJpaWorkspaces(JptJpaCorePlugin.java:123)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.stop(JptJpaCorePlugin.java:54)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:899)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1027)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1861)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1753)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-09 16:00:26.077
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
+!SESSION 2022-09-09 16:05:58.489 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-09 16:06:12.561
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 16:06:16.748
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-09 16:06:21.744
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:06:28.492
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:06:28.547
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-09-09 16:39:19.034
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:300)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:405)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs(SynchronizedBoolean.java:396)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilTrue(SynchronizedBoolean.java:443)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext$JobChangeListener.waitUntilDone(SimpleJobCommandContext.java:207)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute_(SimpleJobCommandContext.java:167)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute(SimpleJobCommandContext.java:136)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects_(InternalJpaProjectManager.java:357)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects(InternalJpaProjectManager.java:346)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.dispose(InternalJpaProjectManager.java:331)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaWorkspace.dispose(InternalJpaWorkspace.java:113)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.disposeJpaWorkspaces(JptJpaCorePlugin.java:123)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.stop(JptJpaCorePlugin.java:54)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:899)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1027)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1861)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1753)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-09 16:39:19.220
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
+!SESSION 2022-09-09 16:41:02.754 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-09 16:41:15.532
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 16:41:23.207
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-09 16:41:29.605
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:41:34.329
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:41:34.379
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-09-09 16:56:15.519
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:300)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:405)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs(SynchronizedBoolean.java:396)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilTrue(SynchronizedBoolean.java:443)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext$JobChangeListener.waitUntilDone(SimpleJobCommandContext.java:207)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute_(SimpleJobCommandContext.java:167)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute(SimpleJobCommandContext.java:136)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects_(InternalJpaProjectManager.java:357)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects(InternalJpaProjectManager.java:346)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.dispose(InternalJpaProjectManager.java:331)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaWorkspace.dispose(InternalJpaWorkspace.java:113)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.disposeJpaWorkspaces(JptJpaCorePlugin.java:123)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.stop(JptJpaCorePlugin.java:54)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:899)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1027)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1861)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1753)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-09 16:56:15.752
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
+!SESSION 2022-09-09 16:57:51.320 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-09 16:58:10.419
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 16:58:17.694
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-09 16:58:23.750
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:58:28.958
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-09 16:58:29.000
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 17:05:32.762
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2022-09-09 17:24:14.403
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:300)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs_(SynchronizedBoolean.java:405)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilValueIs(SynchronizedBoolean.java:396)
+	at org.eclipse.jpt.common.utility.internal.reference.SynchronizedBoolean.waitUntilTrue(SynchronizedBoolean.java:443)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext$JobChangeListener.waitUntilDone(SimpleJobCommandContext.java:207)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute_(SimpleJobCommandContext.java:167)
+	at org.eclipse.jpt.common.core.internal.utility.command.SimpleJobCommandContext.waitToExecute(SimpleJobCommandContext.java:136)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects_(InternalJpaProjectManager.java:357)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.clearJpaProjects(InternalJpaProjectManager.java:346)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.dispose(InternalJpaProjectManager.java:331)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaWorkspace.dispose(InternalJpaWorkspace.java:113)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.disposeJpaWorkspaces(JptJpaCorePlugin.java:123)
+	at org.eclipse.jpt.jpa.core.internal.plugin.JptJpaCorePlugin.stop(JptJpaCorePlugin.java:54)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:899)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1027)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1861)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1753)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-09 17:24:14.571
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
+!SESSION 2022-09-09 17:31:14.720 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-09 17:31:21.138
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-09 17:31:25.434
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-09 17:31:29.554
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-12 10:27:38.113
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.
+!SESSION 2022-09-12 10:31:00.708 -----------------------------------------------
+eclipse.buildId=3.9.7.202207131011-ga8
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.egit.core 1 0 2022-09-12 10:31:14.593
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2022-09-12 10:31:20.624
+!MESSAGE Ignoring template 'log' since it has no id.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-12 10:31:26.523
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-12 10:40:55.822
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2022-09-12 10:40:55.863
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jface 2 0 2022-09-12 10:47:08.901
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1971)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1595)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+!ENTRY org.eclipse.rse.core 1 0 2022-09-12 12:31:12.514
+!MESSAGE Disconnect operation timed out after 120000 milliseconds.

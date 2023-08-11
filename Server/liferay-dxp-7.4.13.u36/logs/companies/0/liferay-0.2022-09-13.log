@@ -1,0 +1,58 @@
+2022-09-13 06:49:48.906 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56 -Dcatalina.home=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56 -Djava.io.tmpdir=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp
+2022-09-13 06:52:42.747 WARN  [main][DialectDetector:82] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-09-13 06:52:42.748 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-09-13 06:52:47.368 INFO  [main][ModuleFrameworkImpl:1267] Starting initial bundles
+2022-09-13 06:52:49.839 INFO  [ModuleFramework-Static-Bundles-1][InterpolationConfigurationPlugin:109] Configured directory for secrets: D:/Gaming/Server/liferay-dxp-7.4.13.u36/osgi/configs
+2022-09-13 06:52:56.135 INFO  [main][ModuleFrameworkImpl:1564] Started initial bundles
+2022-09-13 06:52:56.137 INFO  [main][ModuleFrameworkImpl:1613] Starting dynamic bundles
+2022-09-13 06:53:53.571 INFO  [main][ModuleFrameworkImpl:1635] Started dynamic bundles
+2022-09-13 06:53:53.589 INFO  [main][ModuleFrameworkImpl:1642] Starting web bundles
+2022-09-13 06:54:07.512 INFO  [main][ModuleFrameworkImpl:1696] Started web bundles
+2022-09-13 06:54:07.517 INFO  [main][ModuleFrameworkImpl:276] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-09-13 06:54:16.556 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-09-13 06:54:50.065 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-09-13 06:55:02.438 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-09-13 06:55:02.738 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-09-13 06:55:02.781 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 44 ms
+2022-09-13 06:55:03.251 INFO  [main][LicenseManager:-1] Failed to find directory D:\Gaming\Server\liferay-dxp-7.4.13.u36\data\license
+2022-09-13 06:55:03.252 INFO  [main][LicenseManager:-1] No binary licenses found
+2022-09-13 06:55:04.378 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for D:\Gaming\Server\liferay-dxp-7.4.13.u36\deploy
+2022-09-13 06:55:20.084 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing activation-key-7.4-developer-(cluster)-august-learning-3-months.xml
+2022-09-13 06:55:28.159 INFO  [fileinstall-directory-watcher][LicenseManager:-1] Portal Development license validation passed
+2022-09-13 06:55:28.161 INFO  [fileinstall-directory-watcher][LicenseManager:-1] License registered for Portal Development
+2022-09-13 06:55:30.361 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-09-13 06:55:33.816 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-09-13 06:55:34.225 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-09-13 06:55:34.629 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-09-13 06:55:34.943 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-09-13 07:07:11.513 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing gaming-theme.war
+2022-09-13 07:07:19.485 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913070719386RAUVBKMW\gaming-theme.war
+2022-09-13 07:07:40.828 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913070719386RAUVBKMW\gaming-theme.war copied successfully
+2022-09-13 07:07:54.563 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:108] 1 theme for gaming-theme is available for use
+2022-09-13 07:07:54.637 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED gaming-theme_1.0.0 [1658]
+2022-09-13 07:11:18.069 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing gaming-theme.war
+2022-09-13 07:11:27.994 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for gaming-theme was unregistered
+2022-09-13 07:11:28.106 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED gaming-theme_1.0.0 [1658]
+2022-09-13 07:11:28.139 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913071128109WBXJMPST\gaming-theme.war
+2022-09-13 07:11:44.154 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913071128109WBXJMPST\gaming-theme.war copied successfully
+2022-09-13 07:12:00.248 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][ThemeHotDeployListener:108] 1 theme for gaming-theme is available for use
+2022-09-13 07:12:00.339 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][BundleStartStopLogger:77] STARTED gaming-theme_1.0.0 [1658]
+2022-09-13 07:26:33.012 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing gaming-layout-layouttpl.war
+2022-09-13 07:26:39.578 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying layout templates for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913072639566YBBCCUWZ\gaming-layout-layouttpl.war
+2022-09-13 07:26:40.345 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Layout templates for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913072639566YBBCCUWZ\gaming-layout-layouttpl.war copied successfully
+2022-09-13 07:26:41.124 INFO  [fileinstall-directory-watcher][LayoutTemplateHotDeployListener:107] 1 layout template for gaming-layout-layouttpl is available for use
+2022-09-13 07:26:41.203 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED gaming-layout-layouttpl_1.0.0 [1659]
+2022-09-13 07:38:29.092 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED gaming-react_1.0.0 [1660]
+2022-09-13 07:42:54.157 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED gaming-react_1.0.0 [1660]
+2022-09-13 07:42:54.528 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][BundleStartStopLogger:77] STARTED gaming-react_1.0.0 [1660]
+2022-09-13 07:46:02.184 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED gaming-react_1.0.0 [1660]
+2022-09-13 07:46:02.420 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][BundleStartStopLogger:77] STARTED gaming-react_1.0.0 [1660]
+2022-09-13 08:37:34.678 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m47s396ms677µs500ns).
+2022-09-13 08:37:38.546 WARN  [HikariPool-2 housekeeper][HikariPool:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m47s408ms595µs100ns).
+2022-09-13 09:36:44.954 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing gaming-theme.war
+2022-09-13 09:36:53.436 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for gaming-theme was unregistered
+2022-09-13 09:36:53.651 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED gaming-theme_1.0.0 [1658]
+2022-09-13 09:36:53.675 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913093653654FXROXGXP\gaming-theme.war
+2022-09-13 09:37:04.864 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913093653654FXROXGXP\gaming-theme.war copied successfully
+2022-09-13 09:37:12.514 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][ThemeHotDeployListener:108] 1 theme for gaming-theme is available for use
+2022-09-13 09:37:12.579 INFO  [Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f][BundleStartStopLogger:77] STARTED gaming-theme_1.0.0 [1658]

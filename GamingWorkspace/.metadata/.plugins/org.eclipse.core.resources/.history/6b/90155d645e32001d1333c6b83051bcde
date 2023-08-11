@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+.site-title{
+	height: 1000px;
+	width:10px;
+	
+}

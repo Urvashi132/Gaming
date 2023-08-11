@@ -1,0 +1,12 @@
+#
+#Mon Sep 12 12:31:10 IST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=gaming-theme
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;gaming-theme/build

@@ -1,0 +1,108 @@
+#banner {
+     background-color: $bkColor;
+
+     #heading {
+         padding: 0 4%;
+
+         .site-title {
+             .logo {
+                 padding-bottom: 16px;
+             }
+         }
+
+         .page-title {
+             color: $themeMainColor;
+             font-style: oblique;
+             text-transform: uppercase;
+         }
+     }
+
+     /* ---------- Main Navigation ---------- */
+
+     #navigation {
+         background-color: $themeMainColor;
+         display: block;
+         position: relative;
+         z-index: 1;
+
+         .active{
+             background-color: #00C4FF;
+                 > a {
+                     color: #FFF;
+                 }
+         }        
+
+         .dropdown-menu li {
+             background: #00ACFF;
+             border-width: 0;
+             margin: 0;
+             position: relative;
+
+             &:after, &:before {
+                 border-width: 0;
+             }
+
+             a {
+                 color: #FFF;
+
+                 &:hover {
+                     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                 }
+             }
+         }
+
+         li {
+             margin: 0 4px;
+             padding: 15px 10px;
+             position: absolute;
+
+             &:hover {
+                 background-color: #00C4FF;
+
+                 .child-menu {
+                     display: block;
+                     margin-top: 0;
+                 }
+
+                 a {
+                     color: #FFF;
+                     text-decoration: none;
+                 }
+             }
+         }
+
+         ul {
+             li {
+                 &:hover {
+                 background-color:#00C4FF;
+                     .child-menu {
+                         display: block;
+                         padding: 0;
+                         li {
+                             background-color: $themeMainColor;
+                             &:hover {
+                                 background-color: #00C4FB;
+                             }
+                         }
+                         a {
+                             color: #FFF;
+                             margin: -10px;
+                             text-decoration: none;
+                         }
+                     }
+                 }
+             }
+         }
+
+         > ul > li {
+             display: inline-block;
+             font-size: 1.2em;
+             position: relative;
+
+             a {
+                 color: #FFF;
+                 padding: 15px 10px;
+             }
+         }
+     }
+ }

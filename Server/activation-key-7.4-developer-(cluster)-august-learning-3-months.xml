@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>Liferay Activation Key</account-name>
+	<owner>Liferay Activation Key</owner>
+	<description>Liferay Activation Key</description>
+	<product-name>Portal Development</product-name>
+	<product-version>7.4</product-version>
+	<license-name>Portal Developer (Cluster)</license-name>
+	<license-type>developer-cluster</license-type>
+	<license-version>6</license-version>
+	<start-date>Monday, August 1, 2022 12:00:01 AM GMT</start-date>
+	<expiration-date>Sunday, October 30, 2022 12:00:01 AM GMT</expiration-date>
+	<max-http-sessions>10</max-http-sessions>
+	<instance-size>Sizing 4</instance-size>
+	<key>5bd2b95f327bd43732e2f52907671bccce8442bbcc77cfef71242771e894ace4b0786920e6134a87fa9f5c907367de8da797c2e49cb93ec53c9ee355c23b95b8e49d31202d852b3d61acf5ef6b6949a6829e77cd90aac5d52dbd35bfe36f908196212c2067e6c5208abec33f0557cd4819076fa269e92005ea3331fced2b83dfae214556</key>
+</license>

@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+.custom_logo_title{
+	height: 1000px;
+	width:10px;
+	
+}
+.custom_logo_name{
+	float:right;
+}

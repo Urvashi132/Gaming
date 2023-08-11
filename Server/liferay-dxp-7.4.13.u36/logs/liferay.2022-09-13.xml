@@ -1,0 +1,840 @@
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1663051788906" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: -Djava.util.logging.config.file=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56 -Dcatalina.home=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56 -Djava.io.tmpdir=D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1663051962747" level="WARN" thread="main">
+<log4j:message><![CDATA[Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="82"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1663051962748" level="INFO" thread="main">
+<log4j:message><![CDATA[Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="153"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663051967368" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1267"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1663051969839" level="INFO" thread="ModuleFramework-Static-Bundles-1">
+<log4j:message><![CDATA[Configured directory for secrets: D:/Gaming/Server/liferay-dxp-7.4.13.u36/osgi/configs]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="&lt;init&gt;" file="InterpolationConfigurationPlugin.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663051976135" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1564"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663051976137" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1613"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663052033571" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1635"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663052033589" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1642"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663052047512" level="INFO" thread="main">
+<log4j:message><![CDATA[Started web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1696"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1663052047517" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="276"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" timestamp="1663052056556" level="WARN" thread="main">
+<log4j:message><![CDATA[Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" method="applyConfigurations" file="SidecarManager.java" line="103"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" timestamp="1663052090065" level="INFO" thread="main">
+<log4j:message><![CDATA[Sidecar Elasticsearch liferay started at 127.0.0.1:9201]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" method="start" file="Sidecar.java" line="119"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelperUtil" timestamp="1663052102438" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelperUtil" method="printPatchLevel" file="StartupHelperUtil.java" line="86"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1663052102738" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1663052102781" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 44 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1663052103251" level="INFO" thread="main">
+<log4j:message><![CDATA[Failed to find directory D:\Gaming\Server\liferay-dxp-7.4.13.u36\data\license]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="g" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1663052103252" level="INFO" thread="main">
+<log4j:message><![CDATA[No binary licenses found]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663052104378" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for D:\Gaming\Server\liferay-dxp-7.4.13.u36\deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1663052113262" level="INFO" thread="main">
+<log4j:message><![CDATA[System check is enabled. You can run a system check with the command "system:check" in Gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="61"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663052120084" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing activation-key-7.4-developer-(cluster)-august-learning-3-months.xml]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="238"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1663052128159" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Portal Development license validation passed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1663052128161" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[License registered for Portal Development]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="registerLicense" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052130361" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for minium-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052133816" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for speedwell-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052134225" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for classic-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052134629" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for admin-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052134943" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for dialect-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1663052274606" level="WARN" thread="liferay/mail-3">
+<log4j:message><![CDATA[Email test@domain.invalid will be ignored because it is included in mail.send.blacklist]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="filterInternetAddress" file="MailMessageListener.java" line="140"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1663052274609" level="WARN" thread="liferay/mail-3">
+<log4j:message><![CDATA[Skipping email because the sender is not specified]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="doMailMessage" file="MailMessageListener.java" line="53"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1663052440738" level="WARN" thread="liferay/mail-3">
+<log4j:message><![CDATA[Email test@domain.invalid will be ignored because it is included in mail.send.blacklist]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="filterInternetAddress" file="MailMessageListener.java" line="140"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1663052440743" level="WARN" thread="liferay/mail-3">
+<log4j:message><![CDATA[Skipping email because the sender is not specified]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="doMailMessage" file="MailMessageListener.java" line="53"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663052831513" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="238"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663052839485" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913070719386RAUVBKMW\gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="43"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663052860828" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913070719386RAUVBKMW\gaming-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="50"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663052874563" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[1 theme for gaming-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663052874637" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED gaming-theme_1.0.0 [1658]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663053078069" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="238"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663053087994" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[1 theme for gaming-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663053088106" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED gaming-theme_1.0.0 [1658]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663053088139" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913071128109WBXJMPST\gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="43"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663053104154" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913071128109WBXJMPST\gaming-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="50"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663053120248" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[1 theme for gaming-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663053120339" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[STARTED gaming-theme_1.0.0 [1658]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663053993012" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing gaming-layout-layouttpl.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="238"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663053999578" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying layout templates for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913072639566YBBCCUWZ\gaming-layout-layouttpl.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="43"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663054000345" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Layout templates for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913072639566YBBCCUWZ\gaming-layout-layouttpl.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="50"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.LayoutTemplateHotDeployListener" timestamp="1663054001124" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[1 layout template for gaming-layout-layouttpl is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.LayoutTemplateHotDeployListener" method="doInvokeDeploy" file="LayoutTemplateHotDeployListener.java" line="107"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663054001203" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED gaming-layout-layouttpl_1.0.0 [1659]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663054709092" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED gaming-react_1.0.0 [1660]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663054974157" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED gaming-react_1.0.0 [1660]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663054974528" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[STARTED gaming-react_1.0.0 [1660]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663055162184" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED gaming-react_1.0.0 [1660]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663055162420" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[STARTED gaming-react_1.0.0 [1660]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1663058254678" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m47s396ms677µs500ns).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1663058258546" level="WARN" thread="HikariPool-2 housekeeper">
+<log4j:message><![CDATA[HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=50m47s408ms595µs100ns).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="freemarker.runtime" timestamp="1663058288495" level="ERROR" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Error executing FreeMarker template]]></log4j:message>
+<log4j:throwable><![CDATA[FreeMarker template error:
+The following has evaluated to null or missing:
+==> sign_in_url  [in template "gaming-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl" at line 40, column 89]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${sign_in_url}  [in template "gaming-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl" at line 40, column 87]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:479)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.lambda$processTemplate$0(FreeMarkerTemplate.java:157)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerManager.render(FreeMarkerManager.java:410)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.processTemplate(FreeMarkerTemplate.java:144)
+	at com.liferay.portal.template.BaseTemplate.processTemplate(BaseTemplate.java:126)
+	at com.liferay.portal.kernel.theme.ThemeUtil.doIncludeFTL(ThemeUtil.java:221)
+	at com.liferay.portal.kernel.theme.ThemeUtil.include(ThemeUtil.java:110)
+	at com.liferay.portal.kernel.theme.ThemeUtil.include(ThemeUtil.java:74)
+	at com.liferay.taglib.theme.IncludeTag.doEndTag(IncludeTag.java:37)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_liferay_002dtheme_005finclude_005f1(portal_jsp.java:714)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_c_005fotherwise_005f0(portal_jsp.java:686)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspService(portal_jsp.java:610)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.forward(DirectRequestDispatcher.java:49)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.forward(DirectRequestDispatcherFactoryImpl.java:172)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:82)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.forward(ClassLoaderRequestDispatcherWrapper.java:45)
+	at com.liferay.portal.struts.StrutsUtil.forward(StrutsUtil.java:66)
+	at com.liferay.portal.struts.PortalRequestProcessor._internalModuleRelativeForward(PortalRequestProcessor.java:348)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:399)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:151)
+	at com.liferay.portal.internal.servlet.MainServlet.doGet(MainServlet.java:200)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:597)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:364)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.etag.ETagFilter.processFilter(ETagFilter.java:87)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:262)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:378)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+<log4j:locationInfo class="freemarker.log._Log4jLoggerFactory$Log4jLogger" method="error" file="_Log4jLoggerFactory.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="portal_web.docroot.html.common.error_jsp" timestamp="1663058288579" level="ERROR" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[User ID null, current URL /react?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin&saveLastPath=false, referer http://localhost:8080/react, remote address 127.0.0.1, null exception]]></log4j:message>
+<log4j:locationInfo class="org.apache.jsp.html.common.error_jsp" method="_jspService" file="error_jsp.java" line="547"/>
+</log4j:event>
+
+<log4j:event logger="freemarker.runtime" timestamp="1663060558430" level="ERROR" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[Error executing FreeMarker template]]></log4j:message>
+<log4j:throwable><![CDATA[FreeMarker template error:
+The following has evaluated to null or missing:
+==> sign_in_url  [in template "gaming-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl" at line 40, column 89]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${sign_in_url}  [in template "gaming-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl" at line 40, column 87]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:479)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.lambda$processTemplate$0(FreeMarkerTemplate.java:157)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerManager.render(FreeMarkerManager.java:410)
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.processTemplate(FreeMarkerTemplate.java:144)
+	at com.liferay.portal.template.BaseTemplate.processTemplate(BaseTemplate.java:126)
+	at com.liferay.portal.kernel.theme.ThemeUtil.doIncludeFTL(ThemeUtil.java:221)
+	at com.liferay.portal.kernel.theme.ThemeUtil.include(ThemeUtil.java:110)
+	at com.liferay.portal.kernel.theme.ThemeUtil.include(ThemeUtil.java:74)
+	at com.liferay.taglib.theme.IncludeTag.doEndTag(IncludeTag.java:37)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_liferay_002dtheme_005finclude_005f1(portal_jsp.java:714)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspx_meth_c_005fotherwise_005f0(portal_jsp.java:686)
+	at org.apache.jsp.html.common.themes.portal_jsp._jspService(portal_jsp.java:610)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.forward(DirectRequestDispatcher.java:49)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.forward(DirectRequestDispatcherFactoryImpl.java:172)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:82)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.forward(ClassLoaderRequestDispatcherWrapper.java:45)
+	at com.liferay.portal.struts.StrutsUtil.forward(StrutsUtil.java:66)
+	at com.liferay.portal.struts.PortalRequestProcessor._internalModuleRelativeForward(PortalRequestProcessor.java:348)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:399)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:151)
+	at com.liferay.portal.internal.servlet.MainServlet.doPost(MainServlet.java:210)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:597)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:364)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.etag.ETagFilter.processFilter(ETagFilter.java:87)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:262)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:378)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+<log4j:locationInfo class="freemarker.log._Log4jLoggerFactory$Log4jLogger" method="error" file="_Log4jLoggerFactory.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="portal_web.docroot.html.common.error_jsp" timestamp="1663060558442" level="ERROR" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[User ID null, current URL /home?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&_com_liferay_login_web_portlet_LoginPortlet_javax.portlet.action=%2Flogin%2Flogin&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin, referer http://localhost:8080/home?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin&saveLastPath=false, remote address 127.0.0.1, null exception]]></log4j:message>
+<log4j:locationInfo class="org.apache.jsp.html.common.error_jsp" method="_jspService" file="error_jsp.java" line="547"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1663061804954" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="238"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663061813436" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[1 theme for gaming-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663061813651" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED gaming-theme_1.0.0 [1658]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663061813675" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913093653654FXROXGXP\gaming-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="43"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814578" level="WARN" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814579" level="WARN" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814605" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814606" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814658" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814660" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814661" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814663" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814664" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814669" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814671" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814672" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814674" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814717" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814718" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814752" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.service.impl.ThemeLocalServiceImpl" timestamp="1663061814757" level="WARN" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[No theme found for specified theme id gamingtheme_WAR_gamingtheme. Returning the default theme.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.service.impl.ThemeLocalServiceImpl" method="getTheme" file="ThemeLocalServiceImpl.java" line="229"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1663061824864" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for D:\Gaming\Server\liferay-dxp-7.4.13.u36\tomcat-9.0.56\temp\20220913093653654FXROXGXP\gaming-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="50"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1663061832514" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[1 theme for gaming-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1663061832579" level="INFO" thread="Refresh Thread: Equinox Container: f8657c7c-4e41-465c-a12e-52652527141f">
+<log4j:message><![CDATA[STARTED gaming-theme_1.0.0 [1658]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
